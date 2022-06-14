@@ -15,12 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Domashka_12 (6).cpp">
+    <ClCompile Include="Domashka_12_new.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="dom_12_new.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="dom_12.h">
+    <ClInclude Include="dom_12_newr.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

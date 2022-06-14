@@ -1,7 +1,17 @@
-#ifndef DOM_12
-#define DOM_12
+#ifndef DOM_12_NEWR
+#define DOM_12_NEWR
 #include <iostream>
 using namespace std;
+
+struct  Complex
+{
+    double re = 0;
+    double im = 0;
+
+    void print();
+    double mod();
+    void coutmod();
+};
 
 template <typename T>
 void sort_bubble(T mass[], int N)
@@ -29,5 +39,9 @@ void sort_bubble(T mass[], int N)
         cout << mass[i] << " ";  //вывод массива
     }
 }
+
+template <> typename
+void sort_bubble(Complex mass[], int N); // специализированный шаблон
+
 
 #endif
